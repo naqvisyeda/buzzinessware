@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <h2>Welcom to buzzinessware a project management tool</h2>
+        <h2>Welcome to buzzinessware a project management tool!</h2>
       </main>
     </div>
   );
