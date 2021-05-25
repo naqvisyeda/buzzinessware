@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
         <title>Buzzinessware</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Header />
 
       <main>
         <h2>Welcom to buzzinessware a project management tool</h2>
