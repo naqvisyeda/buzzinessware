@@ -9,7 +9,7 @@
   }
 
   .bw-login {
-    @apply py-2 px-6 w-full border bg-gradient-to-b rounded-sm flex items-center space-x-4 justify-center text-gray-100 h-12;
+    @apply py-2 px-6 w-full border bg-gradient-to-b rounded-sm flex items-center space-x-4 justify-center text-gray-100 h-12 text-sm;
   }
 
   .bw-login-icon {
