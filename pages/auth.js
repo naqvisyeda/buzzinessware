@@ -20,7 +20,7 @@ function auth({ providers }) {
               signIn(providers.google.id);
             }}
           >
-            <FontAwesomeIcon icon={faGoogle} className="text-xl" />
+            <FontAwesomeIcon icon={faGoogle} className="bw-login-icon" />
             <span> Signin with {providers.google.name}</span>
           </button>
 
@@ -30,7 +30,7 @@ function auth({ providers }) {
               signIn(providers.facebook.id);
             }}
           >
-            <FontAwesomeIcon icon={faFacebook} className="text-xl" />
+            <FontAwesomeIcon icon={faFacebook} className="bw-login-icon" />
             <span> Signin with {providers.facebook.name}</span>
           </button>
 
@@ -40,7 +40,7 @@ function auth({ providers }) {
               signIn(providers.github.id);
             }}
           >
-            <FontAwesomeIcon icon={faGithub} className="text-xl" />
+            <FontAwesomeIcon icon={faGithub} className="bw-login-icon" />
             <span>Signin with {providers.github.name}</span>
           </button>
         </div>
